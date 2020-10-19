@@ -1,18 +1,18 @@
 # Auto Scaling
 
-* **Auto Scaling** helps you ensure that you have the correct number of **Amazon EC2** instances available to*handle the load for your application*
+* **Auto Scaling** helps you ensure that you have the correct number of **Amazon EC2** instances available to *handle the load for your application*
 * Removes the guess work of meeting work load requirements
-* It is critical to monitor performance using**Amazon CloudWatch**
-* CloudWatch*will not scale our EC2 instances*
+* It is critical to monitor performance using **Amazon CloudWatch**
+* CloudWatch* will not scale our EC2 instances*
 * We do not want to under utilize resources nor do we want to under perform for our end users
 * Auto Scaling lets us scale*based on criteria we specify*
 * Maintain performance and minimize cost
 * **Scalability**
   * Ensure workload has enough EC2 resources to meet fluctuating perfromance requirements
-  * **Scaling out** and**Scaling in** based on conditions we define
+  * **Scaling out** and **Scaling in** based on conditions we define
   * Scaling out > adds instances
   * Scaling in > terminates instances
-  * To create auto scaling, you need three auto scaling components**Launch Configuration**,**Auto Scaling Group**, and**Auto Scaling Policy**
+  * To create auto scaling, you need three auto scaling components **Launch Configuration**,**Auto Scaling Group**, and **Auto Scaling Policy**
 
 | Auto Scaling Component | Definition |
 | - | - |
@@ -23,8 +23,8 @@
 * **Automation**
   * Automate EC2 resource provisioning to occur on demad
 * **Dynamic Auto Scaling**
-  * Create**CloudWatch alarms** based on performance by EC2 instance or load balancer
-  * When a defined*threshold* is crossed, a*CloudWatch alarm triggers an auto scaling event which will either scale out or scale in EC2 instances*
+  * Create **CloudWatch alarms** based on performance by EC2 instance or load balancer
+  * When a defined *threshold* is crossed, a *CloudWatch alarm triggers an auto scaling event which will either scale out or scale in EC2 instances*
 * Alarms
   * Create a threshold for CPU Utilization and consecutive period of time defined
   * Define an action
