@@ -1,0 +1,3 @@
+# Edge Locations
+
+* AWS Edge

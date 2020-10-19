@@ -1,6 +1,6 @@
 # Availability Zones (AZs)
 
-* **Availability Zones** (AZs) are a collection of data centers in a specific **AWS Region**
+* **AWS Availability Zones** (AZs) are a collection of data centers in a specific **AWS Region**
 * Each Availability Zone is **physically isolated from the other, but are connected by a fast, low latency network**
 * Each Availability Zone is a **physically distinct, independent infrastructure, that is physically and logically separate**
 * Availability zones have an **uninterruptible power supply**, **on - site backup generators**, **cooling equipment**, **network connectivity**, and are **supplied by different grids from indepedent utility companies for power**
