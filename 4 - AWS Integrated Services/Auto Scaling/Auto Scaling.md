@@ -17,8 +17,8 @@
 
 | Auto Scaling Component | Definition |
 | - | - |
-| Launch Configuration | Defines what will be launched by auto scaling, such as choosing an  **Amazon Machine Image** (AMI), instance type, security groups, roles. The things you think about when you create an EC2 instance. |
-| Auto Scaling Group | Defining where a deployment takes place and boundaries for the deployment. Define which**VPC** to deploy instances, and which **Load Balancer** to interact with. We set boundaries for a group. We can set a minimum of instances, and maximum of instances. We can set a desired capacity, which is our number of instances to start with. |
+| Launch Configuration | Defines what will be launched by auto scaling, such as choosing an**Amazon Machine Image** (AMI), instance type, security groups, roles. The things you think about when you create an EC2 instance. |
+| Auto Scaling Group | Defining where a deployment takes place and boundaries for the deployment. Define which **VPC** to deploy instances, and which **Load Balancer** to interact with. We set boundaries for a group. We can set a minimum of instances, and maximum of instances. We can set a desired capacity, which is our number of instances to start with. |
 | Auto Scaling Policy | Specification of when to create/terminate EC2 instances. We can schedule or create thresholds to do this. |
 
 * **Automation**
