@@ -28,4 +28,21 @@
 | - | - | - |
 | https://examplebucket/ | s3-us-west-2.amazonaws.com/ | media/sam.mp3 |
 
-*
+* Bucket names must be globally unique and DNS compliant
+* Object keys should use URL safe characters
+
+### Common Use Cases
+
+1. Storing Application Assets
+   * Access through traditional servers, Amazon EC2, or anything else
+   * Server Logs
+   * Other application files needing to be stored
+   * You can offload serving the content from your application to S3, allowing your clients to directly fetch data from S3
+2. Static Web Hosting
+   * S3 buckets can serve up static contents of your website i.e. *HTML*, *JavaScript*, *CSS*, etc.
+3. Backup and Disaster Recovery
+   * The high durability of S3 makes it a good candidate to store backups of data
+   * Can be set up to support cross region replication
+4. Staging Area for Big Data
+   * Can be used by data software
+   * Can import and export data
