@@ -29,4 +29,4 @@
 16. View auto scaling groups to confirm the created auto scaling group exists
 17. To trigger auto scaling, edit the group details and change the minimum number of instances in the configuration to be higher than what is set
 18. It will autoscale and launch the difference (n) in instances
-19. TL;DR - Auto scaling allows us to maintain performance and minimize cost while we sleep
+19. *TL;DR* - Auto scaling allows us to maintain performance and minimize cost while we sleep
