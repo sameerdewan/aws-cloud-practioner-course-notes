@@ -3,9 +3,9 @@
 * **Auto Scaling** helps you ensure that you have the correct number of **Amazon EC2** instances available to *handle the load for your application*
 * Removes the guess work of meeting work load requirements
 * It is critical to monitor performance using **Amazon CloudWatch**
-* CloudWatch* will not scale our EC2 instances*
+* **CloudWatch** will not scale our EC2 instances*
 * We do not want to under utilize resources nor do we want to under perform for our end users
-* Auto Scaling lets us scale*based on criteria we specify*
+* Auto Scaling lets us scale *based on criteria we specify*
 * Maintain performance and minimize cost
 * **Scalability**
   * Ensure workload has enough EC2 resources to meet fluctuating perfromance requirements
