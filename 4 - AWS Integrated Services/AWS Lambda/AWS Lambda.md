@@ -1,10 +1,10 @@
 # AWS Lambda
 
-* AWS Lambda is an event-driven, server-less compute service
-* AWS Lambda is a compute service that lets you run code without provisioning or managing servers
+* **AWS Lambda** *is an event-driven, server-less compute service*
+* AWS Lambda is *a compute service that lets you run code without provisioning or managing servers*
 * Only runs code when needed and scales automatically to thousands of requests per second
 
-> Key Benefits
+> **Key Benefits**
 >
 > * You only pay for the compute you use
 > * You don't pay for compute time when the code is not running
@@ -18,7 +18,7 @@
 > * Invoke code using API calls made using the **AWS SDK**
 > * Build serverless applications triggered by AWS Lambda functions that can be automatically deployed using **AWS Code Pipeline** and **AWS Code Deploy**
 
-> Use Cases
+> **Use Cases**
 >
 > * Run code for any application or backend service
 > * Automated backups
