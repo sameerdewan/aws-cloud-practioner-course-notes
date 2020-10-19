@@ -6,7 +6,7 @@
 * **Amazon Virtual Private Cloud** (Amazon VPC) is the networking AWS Service that will meet our networking requirements
 * Amazon VPC allows us to create a *private network* in the AWS Cloud while using the *same concepts as on premise networking*, all while *abstracting much of the complexity*, without sacrificing *control*, *usability*, and *security*.
 * Allows complete control of network configuration
-  * configs: *IP Address bases*, *subnets*, and *routing tables*
+  * configs: *IP Address bases*, ***subnets***, and ***routing tables***
   * Control what you expose to the Internet and what you isolate to the Amazon VPC
 * You can deploy your VPC in a way to layer security controls in the network
   * Isolating subnets
@@ -31,3 +31,22 @@
 > * Amazon Route 53
 > * Elastic Load Balancing
 > * AWS Data Pipeline
+
+* Understanding and implementing Amazon VPC will allow you to fully use other AWS Services
+
+### AWS VPC Features
+
+* AWS VPC builds upon the **AWS Global Infrastructure** of **AWS Regions** and **AWS Availability Zones** (AZs)
+* This allows us to easily take advantage of the high availability provided by the AWS Cloud
+* AWS VPCs live within AWS Regions and can span across multiple AWS Availability Zones (AZs)
+* Each AWS account can create multiple VPCs that can be used to segregate environments
+* VPCs define the IP address space that is then divided by the subnets
+* Subnets are then deployed within Availability Zones, causing the VPC to span the Availability Zones
+* You can create many subnets in a VPC, though fewer are recommended to reduce complexity of the network topology
+* You can configure route tables for subnets to control the traffic between subnets and the Internet
+* By default, all subnets within a VPC can communicate with each other
+* Subnets are generally classified as public or private
+  * **Public Subnets**: Direct access to the Internet
+  * **Private Subnets**: No direct access to the Internet
+* For a subnet to be public, we need to attach an **Internet Gateway** to the VPC and update the route table of the public subnet to send non-local traffic to the Internet Gateway
+* **EC2 Instances** need a public IP address to route to an Internet Gateway
