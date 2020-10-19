@@ -1,2 +1,3 @@
 # AWS Cloud Practitioner Course Notes
-    Notes for the cloud practitioner course program and exam preparation.
+
+Notes for the cloud practitioner course program and exam preparation.
