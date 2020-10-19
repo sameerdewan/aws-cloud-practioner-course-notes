@@ -50,3 +50,5 @@
   * **Private Subnets**: No direct access to the Internet
 * For a subnet to be public, we need to attach an **Internet Gateway** to the VPC and update the route table of the public subnet to send non-local traffic to the Internet Gateway
 * **EC2 Instances** need a public IP address to route to an Internet Gateway
+
+![Diagram AWS VPC](./VPCDiagram.png)
