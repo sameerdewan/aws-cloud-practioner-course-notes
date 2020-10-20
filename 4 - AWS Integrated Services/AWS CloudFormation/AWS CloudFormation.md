@@ -32,4 +32,4 @@
   * Can version control templates
 * Requirements for CloudFormation
   * Templates
-  * Permissions to all services referenced in the template
+  * *Permissions to all services referenced in the template*
